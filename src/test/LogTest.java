@@ -1,4 +1,4 @@
-
+package test;
 
 import employees.HRPerson;
 import employees.Person;
@@ -8,6 +8,7 @@ import log.UserAction;
 import java.io.IOException;
 
 public class LogTest {
+
 
     public static void main(String[]args) throws IOException {
         HRPerson hrperson = new HRPerson("Max", "Muster", 0);
